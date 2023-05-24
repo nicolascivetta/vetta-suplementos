@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif; }
+
+a,
+header nav ul li a {
+  text-decoration: none; }
+
+*,
+ul {
+  list-style: none; }
+
+body {
+  flex-direction: column;
+  min-height: 100vh; }
+
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  header img {
+    width: 150px;
+    padding-top: 0; }
+
+.logo,
+body {
+  display: flex; }
+
+header nav ul {
+  display: flex; }
+  header nav ul li {
+    margin: 20px; }
+    header nav ul li a {
+      color: black;
+      font-size: large;
+      font-weight: 700; }
+
+.logo {
+  transition: all .5s;
+  position: fixed;
+  top: 8px;
+  left: 10px; }
+
+.contactenos ul li:hover,
+.logo:hover {
+  transform: scale(1.1); }
+
+.input {
+  padding: 10px 35px 10px 10px;
+  border-radius: 50px;
+  border: 2;
+  border-color: black;
+  outline: 0; }
+
+.hero {
+  background-image: url(../images/fondo.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: repeat(2, 1fr); }
+  .hero div {
+    border: 1px solid white; }
+
+.div1 {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.473);
+  transition: all 2s; }
+  .div1 :hover {
+    transform: scale(1.009); }
+
+.productos {
+  display: grid;
+  grid-auto-rows: 500px;
+  grid-template-columns: repeat(6, 1fr); }
+
+.ofertas div,
+.productos div {
+  width: 250px;
+  height: 390px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  transition: all .5s;
+  border: 0.9px solid rgba(128, 128, 128, 0.74);
+  border-radius: 5px; }
+
+.ofertas div img:hover,
+.productos div img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px #969595); }
+
+.titulo-productos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0 0;
+  border-top: 1px solid white; }
+
+.main-productos {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000; }
+
+.titulo-ofertas h2,
+.titulo-productos h2 {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white; }
+
+.ofertas div img,
+.productos div img {
+  width: 100%;
+  height: 270px; }
+
+.ofertas div h3,
+.productos div h3 {
+  margin: 15px; }
+
+.ofertas div a,
+.productos div a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px; }
+
+.ofertas h2,
+.titulo-ofertas {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px 0; }
+
+.ofertas {
+  display: grid;
+  grid-auto-rows: 500px;
+  grid-template-columns: repeat(6, 1fr); }
+  .ofertas div {
+    border: 0.9px solid rgba(128, 128, 128, 0.438); }
+  .ofertas h2 {
+    padding: 20px 0; }
+
+.titulo-star {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 10px 0; }
+  .titulo-star h2 {
+    font-size: 200px; }
+  .titulo-star h3 {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #677279; }
+
+.titulo-registro {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px; }
+
+.registro {
+  width: 30%;
+  border: 2px solid white;
+  padding: 30px;
+  border-radius: 5%; }
+
+.caja-registro,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 800px; }
+
+.main-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .main-nosotros h1 {
+    border-bottom: 2px solid black;
+    margin-top: 10px; }
+  .main-nosotros img {
+    margin: 10px;
+    padding: 20px;
+    width: 900px; }
+  .main-nosotros p {
+    color: #677279;
+    font-size: larger;
+    width: 60%;
+    text-align: start;
+    margin-bottom: 50px; }
+
+.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 20px; }
+
+footer {
+  justify-content: space-around;
+  color: white;
+  background-color: #e0dfdc;
+  height: 200px;
+  margin-top: auto; }
+
+.contactenos {
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column; }
+  .contactenos ul {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column; }
+
+.menu-footer {
+  display: flex;
+  flex-direction: column; }
+
+.botones-foot,
+.menu-footer li {
+  padding-bottom: 10px; }
+
+.botones-foot {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  margin: 10px; }
+
+.contactenos ul li {
+  margin: 5px;
+  padding: 0;
+  transition: all 0.5s; }
+
+.contactenos p {
+  border-bottom: 2px solid black; }
+
+@media screen and (max-width: 1720px) {
+  .ofertas,
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 1160px) {
+  .titulo-star h2 {
+    font-size: 100px; }
+  .titulo-star h3 {
+    font-size: small; }
+  .main-nosotros img {
+    width: 500px; }
+  .main-nosotros p {
+    font-size: smaller; } }
+
+@media screen and (max-width: 860px) {
+  .div1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 0;
+    background-color: transparent;
+    margin-right: 80px; }
+  .hero div {
+    border: 0; }
+  .contactenos ul li {
+    margin: 0;
+    padding: 0;
+    transition: none; }
+    .contactenos ul li:hover {
+      transform: none; }
+  .contactenos p {
+    border-bottom: 0; }
+  .titulo-star h2 {
+    font-size: 70px; }
+  .main-productos {
+    display: none; } }
+
+@media screen and (max-width: 550px) {
+  .hero {
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(1, 1fr); }
+  .menu-footer,
+  .redes {
+    display: none; }
+  .botones-foot,
+  .contactenos ul {
+    font-size: x-small; }
+  .titulo-star h3 {
+    font-size: x-small; }
+  .titulo-star h2 {
+    font-size: 30px; }
+  .main-nosotros img {
+    width: 300px; }
+  .main-nosotros p {
+    width: 300px;
+    font-size: xx-small; } }

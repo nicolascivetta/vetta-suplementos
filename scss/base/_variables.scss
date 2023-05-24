@@ -1,0 +1,9 @@
+$color-principal:black;
+$color-secundario:white;
+$color-textos:#677279;
+
+
+@mixin flex ($flex, $direction){
+    display: $flex;
+    flex-direction: $direction ;
+}

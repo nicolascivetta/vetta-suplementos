@@ -1,0 +1,184 @@
+.hero {
+    background-image: url(../images/fondo.png);
+    color: $color-secundario;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(2, 1fr);
+
+    div {
+        border: 1px solid $color-secundario;
+    }
+}
+
+.div1 {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.473);
+    transition: all 2s;
+
+    :hover {
+        transform: scale(1.009);
+    }
+}
+
+.productos {
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.ofertas div,
+.productos div {
+    width: 250px;
+    height: 390px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    transition: all .5s;
+    border: 0.9px solid rgba(128, 128, 128, 0.74);
+    border-radius: 5px;
+}
+
+.ofertas div img:hover,
+.productos div img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 15px #969595);
+}
+
+.titulo-productos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0 0;
+    border-top: 1px solid $color-secundario;
+}
+
+.main-productos {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+}
+
+.titulo-ofertas h2,
+.titulo-productos h2 {
+    border-bottom: 2px solid $color-secundario;
+    border-top: 2px solid $color-secundario;
+}
+
+.ofertas div img,
+.productos div img {
+    width: 100%;
+    height: 270px;
+}
+
+.ofertas div h3,
+.productos div h3 {
+    margin: 15px;
+}
+
+.ofertas div a,
+.productos div a {
+    background-color: $color-principal;
+    color: $color-secundario;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ofertas h2,
+.titulo-ofertas {
+    display: flex;
+    justify-content: center;
+    background-color: $color-principal;
+    color: $color-secundario;
+    padding: 10px 0;
+}
+
+.ofertas {
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(6, 1fr);
+
+    div {
+        border: 0.9px solid rgba(128, 128, 128, 0.438);
+    }
+
+    h2 {
+        padding: 20px 0;
+    }
+}
+
+.titulo-star {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+
+    h2 {
+        font-size: 200px;
+    }
+
+    h3 {
+        margin: 10px;
+        border: 1px solid $color-principal;
+        border-radius: 5px;
+        color: $color-textos;
+    }
+}
+
+.titulo-registro {
+    background-color: #000;
+    color: $color-secundario;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid $color-secundario 1px;
+    border-top: solid $color-secundario 1px;
+}
+
+.registro {
+    width: 30%;
+    border: 2px solid $color-secundario;
+    padding: 30px;
+    border-radius: 5%;
+}
+
+.caja-registro,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-principal;
+    height: 800px;
+}
+
+.main-nosotros{
+    @include flex(flex, column);
+    align-items: center;
+    text-align: center;
+    h1{
+        border-bottom: 2px solid $color-principal;
+        margin-top: 10px;
+    }
+    img{
+        margin: 10px;
+        padding: 20px;
+        width: 900px;
+    }
+    p{
+        color: $color-textos;
+        font-size: larger;
+        width: 60%;
+        text-align:start;
+        margin-bottom: 50px;
+    }
+}
+

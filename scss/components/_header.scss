@@ -1,0 +1,50 @@
+header {
+    background-color: $color-principal;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    img {
+        width: 150px;
+        padding-top: 0;
+    }
+}
+
+.logo,
+body {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+
+    li {
+        margin: 20px;
+
+        a {
+            color: $color-principal;
+            font-size: large;
+            font-weight: 700;
+        }
+    }
+}
+
+.logo {
+    transition: all .5s;
+    position: fixed;
+    top: 8px;
+    left: 10px;
+}
+
+.contactenos ul li:hover,
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.input {
+    padding: 10px 35px 10px 10px;
+    border-radius: 50px;
+    border: 2;
+    border-color: $color-principal;
+    outline: 0;
+}
