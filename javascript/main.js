@@ -210,7 +210,7 @@ function eliminarElementos() {
                 localStorage.setItem("compra", JSON.stringify(carritoEliminar))
                 contadorsito()
                 let modificarCantidad = document.getElementById(`cantidad-${carritoEliminar[index].id}`)
-                modificarCantidad.innerText = `Producto: ${carritoEliminar[index].nombre} x${carritoEliminar[index].cantidad} \n  Precio x unidad: $${carritoEliminar[index].precio}`
+                modificarCantidad.innerText = `Producto: ${carritoEliminar[index].nombre} x${carritoEliminar[index].cantidad}\n  Precio Por unidad: $${carritoEliminar[index].precio}\n Precio Total: $${carritoEliminar[index].precio * carritoEliminar[index].cantidad} `
                 animacionDescontar.classList.remove('descontar');
             } else {
                 carritoEliminar.splice(index, 1)
