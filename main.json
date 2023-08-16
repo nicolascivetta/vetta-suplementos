@@ -1,0 +1,108 @@
+[
+    {
+        "nombre": "WHEY 3GK",
+        "precio": 20000,
+        "stock": 10,
+        "id": 1,
+        "marca":"STAR",
+        "img":"whey-3gk.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "CREATINE",
+        "precio": 8000,
+        "stock": 10,
+        "id": 2,
+        "marca":"XTRENGHT",
+        "img":"Creatine-250-500.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "BEST WHEY",
+        "precio": 7000,
+        "stock": 10,
+        "id": 3,
+        "marca":"XTRENGHT",
+        "img":"best-whey.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "SNACKS",
+        "precio": 1000,
+        "stock": 10,
+        "id": 4,
+        "marca":"STAR",
+        "img":"protein_snack.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "GLUTAMINA",
+        "precio": 6000,
+        "stock": 10,
+        "id": 5,
+        "marca":"XTRENGHT",
+        "img":"Glutamine.500.png",
+        "cantidad": 1
+    },    {
+        "nombre": "BCAA",
+        "precio": 4500,
+        "stock": 10,
+        "id": 6,
+        "marca":"XTRENGHT",
+        "img":"Pro-bcaa.500.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "CUTTER",
+        "precio": 2000,
+        "stock": 10,
+        "id": 7,
+        "marca":"XTRENGHT",
+        "img":"Cutter.500.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "BETA",
+        "precio": 4000,
+        "stock": 10,
+        "id": 8,
+        "marca":"XTRENGHT",
+        "img":"Beta-alanine500.png",
+        "cantidad": 1
+    },    {
+        "nombre": "CREATINE",
+        "precio": 8500,
+        "stock": 10,
+        "id": 9,
+        "marca":"STAR",
+        "img":"creatine_monohydrate_300.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "SHAKER",
+        "precio": 3000,
+        "stock": 10,
+        "id": 10,
+        "marca":"XTRENGHT",
+        "img":"shaker-NEGRO-500.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "ADVANCED",
+        "precio": 8000,
+        "stock": 10,
+        "id": 11,
+        "marca":"XTRENGHT",
+        "img":"Advanced-Banana.png",
+        "cantidad": 1
+    },
+    {
+        "nombre": "TNT",
+        "precio": 6000,
+        "stock": 10,
+        "id": 12,
+        "marca":"XTRENGHT",
+        "img":"tnt.png",
+        "cantidad": 1
+    }
+]
